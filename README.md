@@ -23,10 +23,16 @@
 ![Goal2](https://github.com/TinaLiu46/House-Price-Forecasting/blob/main/Images/time1.png?raw=true "Title")
 ![Goal2](https://github.com/TinaLiu46/House-Price-Forecasting/blob/main/Images/time2.png?raw=true "Title")
 
-By plotting time series, ACF, and PACF plots as well as Augmented Dickey–Fuller test , we tried identify if the time series data is stationary.
+By plotting time series, ACF, and PACF plots as well as Augmented Dickey–Fuller test , we tried identify if the time series data is stationary or if it contains any seasonality. In next step, we will move to select our models based on the result of this step.
 
 ## Models
 
 ### Univariable Model
+C
+### Univariable Model
+### Univariable Model
+- Step1 : Keep differencing the data until it reaches stationary.
+- Step2 : Choose best ARIMA model candidate based on BIC score
+- Step3 : Grid-search
 
 ### Multivariable Model
